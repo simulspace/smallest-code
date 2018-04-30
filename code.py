@@ -13,7 +13,7 @@ class NeuralNetwork():
     def __init__(self):
         random.seed(1)#seeding the rNDIM numbr generator ,for generating same number everytime
         
-        self.synaptic_weights = 2*np.random.random(3,1) - 1
+        self.synaptic_weights = 2*random.random(3,1) - 1
         #here we created 3 input and 1 output connection neuron,with weights belonging from -1 to +1
         
         #now lets creat a sigmoid function wich takes passes weighted sum of input throught it
