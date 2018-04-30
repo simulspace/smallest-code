@@ -4,7 +4,7 @@ Created on Mon Apr 30 00:09:59 2018
 @author: avi_0
 """
 
-#lets make full fledged neural network
+
 
 from numpy import exp, array, random, dot
 
